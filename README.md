@@ -11,4 +11,4 @@ Arrow reaction controls such as ⬆, ⬇, etc. are used to move a cursor. A move
 
 Reaction controls inspired by [Sokobot](https://github.com/PolyMarsDev/Sokobot) by [PolyMars](https://github.com/PolyMarsDev).
 
-P.S To those who don't know about Gradle, bot code is in the app/src/main/kotlin folder. Resources in the app/src/main/resources folder. The rest of the files are Gradle configuration.
+P.S To those who don't know about Gradle, bot code is in the app/src/main/kotlin folder. Resources in the app/src/main/resources folder. The rest of the files are Gradle configuration (except README and LICENSE).
