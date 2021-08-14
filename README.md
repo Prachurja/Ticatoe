@@ -4,8 +4,8 @@ Ticatoe is a Discord bot created using Kotlin, Gradle and JDA which allows two u
 
 ### Features
 
-The one and only command of this bot is **!tictactoe**, which you can be used to play against another person by mentioning them.
-*Example: !tictactoe @Jake*
+The one and only command of this bot is ``!tictactoe``, which you can be used to play against another person by mentioning them.
+``Example: !tictactoe @Jake``
 
 Once this command is used, both players must react with 👍 to a verification message to play or 👎 to not play.
 
@@ -14,10 +14,9 @@ Arrow reaction controls such as ⬆, ⬇, etc. are used to move a cursor. A move
 ### Steps for Self Hosting
 
 1. Install JDK 11 or higher.
-2. Run the command - **setx TOKEN "*enter your bot token here*"**
-3. Install the repo and navigate to the folder using the command line.
-4. Enter the command - **gradlew run**
+2. Run the command - ``setx TOKEN "enter your bot token here"``
+3. Install the repo. Navigate to the folder using the command line.
+4. Enter the command - ``gradlew run`` (takes time on the first run)
 
-##### Conditions
-
+### Conditions
 Free to use for non-commercial purposes.
