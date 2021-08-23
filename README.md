@@ -14,9 +14,9 @@ Arrow reaction controls such as ⬆, ⬇, etc. are used to move a cursor. A move
 ### Steps for Self Hosting
 
 1. Install JDK 11 or higher.
-2. Run the command - ``setx TOKEN "enter your bot token here"``
-3. Install the repo. Navigate to the folder using the command line.
-4. Enter the command - ``gradlew run`` (it takes time on the first run as it has to install some packages)
+2. Install the repo. 
+3. Go to the Command Line (Win + R then type cmd for Windows, Command + Space then type Terminal for Mac, after that press Enter). Then type ``cd directory\where\the\repo\is\installed``
+5. Enter the command - ``gradlew run`` (it takes time on the first run as it has to install some packages). You'd be prompted for your bot token, and that's it!
 
 ### Conditions
 Free to use for non-commercial purposes.
