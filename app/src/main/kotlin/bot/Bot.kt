@@ -7,7 +7,9 @@ import net.dv8tion.jda.api.entities.*
 
 fun main()
 {
-	val jda: JDA = JDABuilder.createDefault(System.getenv("TOKEN"))
+	print("Enter your bot token: ")
+	
+	val jda: JDA = JDABuilder.createDefault(readLine())
    	.setStatus(OnlineStatus.IDLE)
 	.setActivity(Activity.playing("!tictactoe @mention"))
    	.build()
