@@ -9,8 +9,8 @@ data class GameRequest(val time: LocalTime, var players: Pair<Member, Member>, v
 	private fun onceVerified()
 	{
 		message.delete().queue()
-     	message.getChannel().sendMessage(Responses.GETREADY.generate(players)).queue()
-       	RequestsData.requests.remove(message.getId())
+     		message.getChannel().sendMessage(Responses.GETREADY.generate(players)).queue()
+       		RequestsData.requests.remove(message.getId())
 	}
 
 	fun terminate()
