@@ -15,7 +15,7 @@ Arrow reaction controls such as ⬆, ⬇, etc. are used to move a cursor. A move
 
 1. Install JDK 11 or higher.
 2. Install the repo. 
-3. Go to the Command Line, then type ``cd directory\of\the\installed\repo`` and press Enter.
+3. Go to the Command Line, then type ``cd installed-repo-directory`` and press Enter.
 5. Enter the command - ``gradlew run`` (it takes time on the first run as it has to install some packages). You'd be prompted for your bot token. Enter it. And you're done.
 
 ### Conditions
