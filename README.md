@@ -21,9 +21,12 @@ Arrow reaction controls such as ⬆, ⬇, etc. are used to move a cursor. A move
 
 #### How to Run
 * Download the repo.
-* Run the following commands
+* Run the command
 ```bash
 setx TOKEN "place your bot token here"
+```
+* reopen the Command Line then enter the commands
+```bash
 cd folder\where\you\installed\the\repo
 gradlew run
 ```
