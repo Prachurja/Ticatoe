@@ -24,7 +24,7 @@ Arrow reaction controls such as ⬆, ⬇, etc. are used to move a cursor. A move
 ```bash
 setx TOKEN "place your bot token here"
 ```
-* Reopen the Command Prompt then enter the commands below
+* Open a new Command Prompt window. Then enter the commands below
 ```bash
 cd folder\where\you\installed\the\repo
 gradlew run
