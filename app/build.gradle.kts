@@ -6,8 +6,6 @@
  * User Manual available at https://docs.gradle.org/6.8/userguide/building_java_projects.html
  */
 
-import org.jetbrains.kotlin.gradle.tasks.KotlinCompile
-
 plugins {
     // Apply the org.jetbrains.kotlin.jvm Plugin to add support for Kotlin.
     id("org.jetbrains.kotlin.jvm") version "1.4.20"
@@ -51,5 +49,9 @@ application {
     mainClass.set("bot.BotKt")
 }
 
-val compileKotlin: KotlinCompile by tasks
-compileKotlin.kotlinOptions.jvmTarget = "11"
+tasks.withType<KotlinCompile> {
+	kotlinOptions {
+		freeCompilerArgs = listOf("-Xjsr305=strict")
+		jvmTarget = "11"
+	}
+}
