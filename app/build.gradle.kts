@@ -58,10 +58,10 @@ tasks.withType<KotlinCompile> {
 }
 
 tasks.withType<Jar> {
+	duplicatesStrategy = DuplicatesStrategy.INHERIT
 	manifest {
 		attributes["Main-Class"] = "bot.BotKt"
 	}
-	
 	from(configurations.compileClasspath.get().map { if (it.isDirectory()) it else zipTree(it) })
 }
 
