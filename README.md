@@ -18,7 +18,7 @@ Arrow reaction controls such as ⬆, ⬇, etc. are used to move a cursor. A move
 ### Required Software
 * Java 11 or higher
 
-## Compiling
+### Compiling
 * Install the repo.
 * In the root folder, run the command `gradlew build`.
 * A jar file by the name `app.jar` would be created in the `app\build\libs` folder. Run the jar using the command `java -jar app.jar`.
