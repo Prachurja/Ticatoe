@@ -60,9 +60,16 @@ tasks.withType<KotlinCompile> {
 tasks.withType<Jar> {
 	duplicatesStrategy = DuplicatesStrategy.EXCLUDE
 	manifest {
-		attributes["Main-Class"] = "bot.BotKt"
+		attributes(mapOf("Main-Class" to "bot.BotKt"))
 	}
-	from(configurations.compileClasspath.get().map { if (it.isDirectory()) it else zipTree(it) })
+	val sourceMain = java.sourceSets["main"]
+	from(sourceMain.output)
+
+	configurations.runtimeClasspath.filter {
+	it.name.endsWith(".jar")
+	}.forEach { jar ->
+	from(zipTree(jar))
+	}
 }
 
 tasks.create("stage") {
