@@ -29,7 +29,6 @@ setx TOKEN "place your bot token here"
 cd folder\where\you\installed\the\repo
 gradlew run --no-daemon
 ```
-* If you want an executable jar, replace `gradlew run` with `gradlew stage`. The jar file would be stored in `app\build\libs` as `app.jar`.
 * Have some patience. It takes time on the first run. After a while, it should be up and running.
 
 ## Conditions
