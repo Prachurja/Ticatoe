@@ -27,7 +27,7 @@ setx TOKEN "place your bot token here"
 * Open a new Command Prompt window. Then enter the commands:
 ```bash
 cd folder\where\you\installed\the\repo
-gradlew run
+gradlew stage && java -jar app\build\libs\app.jar
 ```
 * Have some patience. It takes time on the first run. After a while, it should be up and running.
 
