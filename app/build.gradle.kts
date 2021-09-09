@@ -58,7 +58,7 @@ tasks.withType<KotlinCompile> {
 }
 
 tasks.withType<Jar> {
-	duplicatesStrategy = DuplicatesStrategy.INHERIT
+	duplicatesStrategy = DuplicatesStrategy.EXCLUDE
 	manifest {
 		attributes["Main-Class"] = "bot.BotKt"
 	}
