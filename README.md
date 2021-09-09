@@ -1,9 +1,9 @@
 # Ticatoe
 
+Ticatoe is a Discord bot created using Kotlin, Gradle and JDA which allows two users to play tic-tac-toe with each other.
+
 
 ## Features
-
-Ticatoe is a Discord bot created using Kotlin, Gradle and JDA which allows two users to play tic-tac-toe with each other.
 
 The one and only command of this bot is `!tictactoe`, which you can be used to play against another person by mentioning them.
 `Example: !tictactoe @Jake`
