@@ -29,7 +29,7 @@ setx TOKEN "place your bot token here"
 cd folder\where\you\installed\the\repo
 gradlew run --no-daemon
 ```
-* Have some patience. It takes time on the first run. After a while, it should be up and running.
+* Have some patience as it takes time on the first run. After a while, it should be up and running.
 
 ## Conditions
 Free to use for non-commercial purposes.
