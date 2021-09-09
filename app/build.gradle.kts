@@ -7,7 +7,6 @@
  */
 
 import org.jetbrains.kotlin.gradle.tasks.KotlinCompile
-import com.github.jengelman.gradle.plugins.shadow.tasks.ShadowJar
 
 plugins {
 	id("com.github.johnrengelman.shadow") version "7.0.0"
@@ -58,11 +57,15 @@ tasks.withType<KotlinCompile> {
 	}
 }
 
-tasks.withType<ShadowJar> {
-	archiveFileName.set("app.jar")
+tasks.withType<Jar> {
+	manifest {
+		attributes["Main-Class"] = "bot.BotKt"
+	}
+	
+	from(configurations.compileClasspath.get().map { if (it.isDirectory()) it else zipTree(it) })
 }
 
 tasks.create("stage") {
-	dependsOn("shadowJar")
+	dependsOn("build")
 	mustRunAfter("clean")
 }
