@@ -36,7 +36,7 @@ class MessageListener private constructor(): ListenerAdapter()
 		val introPath: String = ClassLoader.getSystemClassLoader().getResource("Intro.txt").toString()
 		
 		event.getGuild().getDefaultChannel()?.sendMessage(EmbedBuilder()
-			.setDescription(Files.readAllLines(Path.of(introPath).joinToString("\n")))
+			.setDescription(Files.readAllLines(Path.of(introPath)).joinToString("\n"))
 			.setThumbnail(event.getJDA().getSelfUser().getEffectiveAvatarUrl())
 			.setColor(java.awt.Color(57, 15, 105))
 			.build())
