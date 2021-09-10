@@ -9,8 +9,6 @@
 import org.jetbrains.kotlin.gradle.tasks.KotlinCompile
 
 plugins {
-	id("com.github.johnrengelman.shadow") version "7.0.0"
-	
 	// Apply the org.jetbrains.kotlin.jvm Plugin to add support for Kotlin.
 	id("org.jetbrains.kotlin.jvm") version "1.4.20"
 
@@ -52,7 +50,6 @@ application {
 
 tasks.withType<KotlinCompile> {
 	kotlinOptions {
-		freeCompilerArgs = listOf("-Xjsr305=strict")
 		jvmTarget = "11"
 	}
 }
