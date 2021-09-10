@@ -20,5 +20,5 @@ Arrow reaction controls such as ⬆, ⬇, etc. are used to move a cursor. A move
 
 ### Compiling
 * Install the repo.
-* In the root folder, run the command `gradlew build`.
-* A jar file by the name `app.jar` would be created in the `app\build\libs` folder. Run the jar using the command `java -jar app.jar`.
+* In the root folder, run the command `gradlew build --no-daemon`.
+* A jar file by the name `app.jar` would be created in the `app\build\libs` folder. Navigate to the folder and run the jar using the command `java -jar app.jar`.
