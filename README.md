@@ -17,14 +17,15 @@ Arrow reaction controls such as ⬆, ⬇, etc. are used to move a cursor. A move
 
 ## Self-Hosting
 
-### Required Software
+### Prerequisites
 * Java 11 or higher
+* Must have an environment variable named `TOKEN`, its value being the bot token
 
-### Building
-* Install the repo.
-* Create an environment variable by the name of `TOKEN` and set its value as the token of your bot.
-* Use `gradlew build `[`--no-daemon`](https://docs.gradle.org/current/userguide/gradle_daemon.html#sec:disabling_the_daemon) to create an executable jar. Use `./gradlew` instead of `gradlew` if you are a Linux or Mac user.
-* A jar file by the name, `app.jar` gets stored in the `app/build/libs` folder. You can run it using the `java -jar` command.
+### Method 1
+Use the `gradlew run --no-daemon` command to run the app. [`--no-daemon`](https://docs.gradle.org/current/userguide/gradle_daemon.html#sec:disabling_the_daemon) is optional. Applying it stops the [Gradle daemon](https://docs.gradle.org/current/userguide/gradle_daemon.html) after the build. Otherwise it keeps running as a background task.
+
+### Method 2
+Use `gradlew build --no-daemon` to build the app. A jar file by the name, `app.jar` would get stored in the `app/build/libs` folder. You can run the jar using the `java -jar` command.
 
 ---
 
