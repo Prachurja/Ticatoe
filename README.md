@@ -20,6 +20,7 @@ Arrow reaction controls such as ⬆, ⬇, etc. are used to move a cursor. A move
 ### Prerequisites
 * Java 11 or higher
 * Must have an environment variable named `TOKEN`, its value being the bot token
+* Stable Internet connection, as it will install some dependencies the first time you run
 
 ### Method 1
 Use the `gradlew run --no-daemon` command to run the app. [`--no-daemon`](https://docs.gradle.org/current/userguide/gradle_daemon.html#sec:disabling_the_daemon) is optional. Applying it stops the [Gradle daemon](https://docs.gradle.org/current/userguide/gradle_daemon.html) after the build. Otherwise it keeps running as a background task.
