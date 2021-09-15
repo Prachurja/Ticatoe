@@ -33,10 +33,8 @@ class MessageListener private constructor(): ListenerAdapter()
 
 	override fun onGuildJoin(event: GuildJoinEvent)
 	{
-		val introPath: Path = Path.of("${System.getProperty("user.dir")}\\src\\main\\kotlin\\Intro.txt")
-		
 		event.getGuild().getDefaultChannel()?.sendMessage(EmbedBuilder()
-			.setDescription(Files.readAllLines(introPath).joinToString("\n"))
+			.setDescription(Files.readAllLines(Path.of("Intro.txt")).joinToString("\n"))
 			.setThumbnail(event.getJDA().getSelfUser().getEffectiveAvatarUrl())
 			.setColor(java.awt.Color(57, 15, 105))
 			.build())
