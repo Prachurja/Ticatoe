@@ -15,15 +15,18 @@ Arrow reaction controls such as ⬆, ⬇, etc. are used to move a cursor. A move
 
 ---
 
-## Hosting
+## Self-Hosting
 
 ### Required Software
 * Java 11 or higher
 
 ### Building
 * Install the repo.
-* Create an environment variable by the name of `TOKEN` and set its value as the token of your bot. In Windows Prompt, you can simple run `setx TOKEN "your bot token here"`.
-* In the root folder, run the command `gradlew build --no-daemon` (`./gradlew` instead of `gradlew` for Linux and Mac users).
-* A jar file by the name `app.jar` would be created in the `app\build\libs` folder. Navigate to the folder and run the jar using the command `java -jar app.jar`.
+* Create an environment variable by the name of `TOKEN` and set its value as the token of your bot.
+* Use `gradlew build `[`--no-daemon`](https://docs.gradle.org/current/userguide/gradle_daemon.html#sec:disabling_the_daemon) to create an executable jar. Use `./gradlew` instead of `gradlew` if you are a Linux or Mac user.
+* A jar file by the name, `app.jar` gets stored in the `app/build/libs` folder. You can run it using the `java -jar` command.
 
 ---
+
+## License
+Licensed under the GPL v3 License, a strong copyleft license. This means that any copy or modification of the original code must also be made released under the GPL v3. For further information, see the [LICENSE](https://github.com/Prachurja/Ticatoe/blob/main/README.md) file.
