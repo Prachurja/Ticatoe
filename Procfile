@@ -1,1 +1,1 @@
-web: java -jar app/build/libs/app.jar
+worker: java -jar app/build/libs/app.jar
