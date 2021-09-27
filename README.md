@@ -23,7 +23,7 @@ Arrow reaction controls such as ⬆, ⬇, etc. are used to move a cursor. A move
 * Stable Internet connection as it will install some dependencies the first time you run
 
 ### Method 1
-Use the `gradlew run --no-daemon` command to run the app. [`--no-daemon`](https://docs.gradle.org/current/userguide/gradle_daemon.html#sec:disabling_the_daemon) is optional. Applying this flag stops the [Gradle daemon](https://docs.gradle.org/current/userguide/gradle_daemon.html) after the build. Otherwise it keeps running as a background task.
+Use the `gradlew run --no-daemon` command to run the app. [`--no-daemon`](https://docs.gradle.org/current/userguide/gradle_daemon.html#sec:disabling_the_daemon) is optional. Applying this flag stops the [Gradle Daemon](https://docs.gradle.org/current/userguide/gradle_daemon.html) after the build. Otherwise it keeps running as a background task.
 
 ### Method 2
 Use `gradlew build --no-daemon` to build the app. A jar file by the name, `app.jar` would get stored in the `app/build/libs` folder. You can run the jar using the `java -jar` command.
