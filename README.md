@@ -31,7 +31,7 @@ Use `gradlew build --no-daemon` to build the app. A jar file by the name, `app.j
 ---
 
 ### Invite
-Here's the <a href="https://discord.com/api/oauth2/authorize?client_id=859417039017607170&permissions=10304&scope=bot" target="_blank">BOT INVITE LINK</a> if you want to test the features.
+[BOT INVITE LINK](https://discord.com/api/oauth2/authorize?client_id=859417039017607170&permissions=10304&scope=bot) - if you want to test the features.
 
 ---
 
