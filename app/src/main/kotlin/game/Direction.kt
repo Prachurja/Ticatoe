@@ -1,7 +1,6 @@
 package game
 
-enum class Direction(val x: Int, val y: Int, val unicode: String)
-{
+enum class Direction(val x: Int, val y: Int, val unicode: String) {
 	UP(-1, 0, "U+2b06U+fe0f"),
 	DOWN(1, 0, "U+2b07U+fe0f"),
 	LEFT(0, -1, "U+2b05U+fe0f"),

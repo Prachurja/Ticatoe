@@ -4,10 +4,8 @@ import java.awt.Color
 import kotlin.random.Random
 import kotlin.math.*
 
-class EmbedColor(val rRange: Pair<Int, Int>, val gRange: Pair<Int, Int>, val bRange: Pair<Int, Int>, var grayAllowed: Boolean = false)
-{
-	fun generate(): Color
-	{
+class EmbedColor(val rRange: Pair<Int, Int>, val gRange: Pair<Int, Int>, val bRange: Pair<Int, Int>, var grayAllowed: Boolean = false) {
+	fun generate(): Color {
 		val r: Int = Random.nextInt(rRange.first, rRange.second+1)
 		val g: Int = Random.nextInt(gRange.first, gRange.second+1)
 		val b: Int = Random.nextInt(bRange.first, bRange.second+1)

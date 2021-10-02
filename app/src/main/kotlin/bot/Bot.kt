@@ -5,8 +5,7 @@ import java.nio.file.*
 import net.dv8tion.jda.api.*
 import net.dv8tion.jda.api.entities.*
 
-fun main()
-{
+fun main() {
 	val jda: JDA = JDABuilder.createDefault(System.getenv("TOKEN"))
    	.setStatus(OnlineStatus.IDLE)
 	.setActivity(Activity.playing("!tictactoe @mention"))
