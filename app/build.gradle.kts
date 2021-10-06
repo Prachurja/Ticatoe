@@ -1,4 +1,4 @@
-import org.jetbrains.kotlin.gradle.tasks.KotlinCompile
+import org.jetbrains.kotlin.gradle.tasks.KotlinCompil
 
 plugins {
 	// Apply the org.jetbrains.kotlin.jvm Plugin to add support for Kotlin.
