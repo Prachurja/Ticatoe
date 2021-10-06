@@ -30,10 +30,5 @@ Use `gradlew build --no-daemon` to build the app. A jar file by the name, `app.j
 
 ---
 
-## Invite
-[BOT INVITE LINK](https://discord.com/api/oauth2/authorize?client_id=859417039017607170&permissions=10304&scope=bot) - if you want to test its features.
-
----
-
 ## License
 Licensed under the GPL v3 License, a strong copyleft license. This means that any copy or modification of the original code must also be made released under the GPL v3. For further information, see the [LICENSE](https://github.com/Prachurja/Ticatoe/blob/main/LICENSE) file.
