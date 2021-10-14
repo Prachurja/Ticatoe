@@ -27,8 +27,3 @@ Use the `gradlew run --no-daemon` command to run the app. [`--no-daemon`](https:
 
 ### Method 2
 Use `gradlew build --no-daemon` to build the app. A jar file by the name, `app.jar` would get stored in the `app/build/libs` folder. You can run the jar using the `java -jar` command.
-
----
-
-## License
-Licensed under the GPL v3 License, a strong copyleft license. This means that any copy or modification of the original code must also be made released under the GPL v3. For further information, see the [LICENSE](https://github.com/Prachurja/Ticatoe/blob/main/LICENSE) file.
