@@ -29,4 +29,9 @@ Create an environment variable named `TOKEN`, and set its value as your bot toke
 
 ## Heroku Hosting
 
-The `stage` task is configured in the `build.gradle.kts` file and a `Profile` is also added. To host on Heroku, you must set the `TOKEN` environment variable (config var). Then scale the app to one worker dyno.
+The `stage` task in `build.gradle.kts` and the `Procfile` have been configured for Heroku hosting.
+<div>
+  <a href="https://heroku.com/deploy?template=https://github.com/Prachurja/Ticatoe">
+      <img src="https://img.shields.io/badge/deploy_to-heroku-997FBC.svg?style=for-the-badge&logo=Heroku">
+  </a>
+</div>
