@@ -5,7 +5,7 @@
   "logo": "https://images-ext-1.discordapp.net/external/z0iGy1rXvUZdVnGCpDTHD1ot9GZL4OeP3g_xATyxPTs/%3Fsize%3D256/https/cdn.discordapp.com/avatars/859417039017607170/5337bb65824621d967cbaa11e78e3065.png",
   "env": {
     "TOKEN": {
-      "description": "The bot's token"
+      "description": "Your bot's token"
     }
   },
   "formation": {
