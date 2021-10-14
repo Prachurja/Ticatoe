@@ -29,12 +29,14 @@ Create an environment variable named `TOKEN`, and set its value as your bot toke
 
 ## Heroku Hosting
 <div>
-  <a href="https://dashboard.heroku.com/new?button-url=https%3A%2F%2Fgithub.com%2FPrachurja%2FTicatoe&template=https%3A%2F%2Fgithub.com%2FPrachurja%2FTicatoe">
-      <img src="https://img.shields.io/badge/deploy_to-heroku-997FBC.svg?style=for-the-badge&logo=Heroku">
-  </a>
+  <button>
+    <a href="https://dashboard.heroku.com/new?button-url=https%3A%2F%2Fgithub.com%2FPrachurja%2FTicatoe&template=https%3A%2F%2Fgithub.com%2FPrachurja%2FTicatoe">
+        <img src="https://img.shields.io/badge/deploy_to-heroku-997FBC.svg?style=for-the-badge&logo=Heroku">
+    </a>
+  </button>
 </div>
  
 <br/>
 
-*Note: Even if you have a free Heroku plan, you need to have a credit card number registered to your account in order to use the link above.
+*Note: Even if you have a free Heroku plan, you need to have a credit card number registered to your account in order to use the button above.
 If you don't, create a new Heroku app. Set an environment variable `TOKEN` as the bot token, and scale your app to one worker dyno before deploying your app.*
