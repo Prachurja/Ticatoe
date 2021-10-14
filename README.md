@@ -31,7 +31,7 @@ Create an environment variable named `TOKEN`, and set its value as your bot toke
 <div>
   <button>
     <a href="https://dashboard.heroku.com/new?button-url=https%3A%2F%2Fgithub.com%2FPrachurja%2FTicatoe&template=https%3A%2F%2Fgithub.com%2FPrachurja%2FTicatoe">
-        <img src="https://img.shields.io/badge/deploy_to-heroku-997FBC.svg?style=for-the-badge&logo=Heroku">
+        <img src="https://www.herokucdn.com/deploy/button.svg">
     </a>
   </button>
 </div>
