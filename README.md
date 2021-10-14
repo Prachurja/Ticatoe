@@ -31,7 +31,7 @@ Create an environment variable named `TOKEN`, and set its value as your bot toke
 
 The `stage` task in `build.gradle.kts` and the `Procfile` have been configured for Heroku hosting.
 <div>
-  <a href="https://heroku.com/deploy?template=https://github.com/Prachurja/Ticatoe">
+  <a href="https://dashboard.heroku.com/new?button-url=https%3A%2F%2Fgithub.com%2FPrachurja%2FTicatoe&template=https%3A%2F%2Fgithub.com%2FPrachurja%2FTicatoe">
       <img src="https://img.shields.io/badge/deploy_to-heroku-997FBC.svg?style=for-the-badge&logo=Heroku">
   </a>
 </div>
