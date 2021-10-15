@@ -42,5 +42,4 @@ Create an environment variable named `TOKEN`, and set its value as your bot toke
  
 <br/>
 
-*Note: Even if you have a free Heroku plan, you need to have a credit card number registered to your account in order to use the button above.
-If you don't, create a new Heroku app. Set an environment variable `TOKEN` as the bot token, and scale your app to one worker dyno before deploying.*
+*Note: If you don't have a credit card registered to your Heroku account, you might face issues if you press the button above. In that case, create a new Heroku app. Set an environment variable `TOKEN` as the bot token, and scale your app to one worker dyno before deploying.*
