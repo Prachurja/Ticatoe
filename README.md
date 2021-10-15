@@ -25,9 +25,7 @@ Arrow reaction controls such as ⬆, ⬇, etc. are used to move a cursor. A move
 
 *Note: Must use Java 11 or higher*
 
-Create an environment variable named `TOKEN`, and set its value as your bot token. Use `gradlew run --no-daemon` to run the app. If you want to create an executable jar, use `gradlew build --no-daemon` instead. A jar file named `app.jar` gets stored in the `app/build/libs` directory.
-
-*`--no-daemon` is optional. If it isn't applied, a Gradle daemon keeps runs as a background process (to make frequent builds faster).*
+Create an environment variable named `TOKEN`, and set its value as your bot token. Use `gradlew run` to run the app. If you want to create an executable jar, use `gradlew build` instead. A jar file named `app.jar` gets stored in the `app/build/libs` directory.
 
 ---
 
