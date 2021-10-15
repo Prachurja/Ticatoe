@@ -29,7 +29,6 @@ Create an environment variable named `TOKEN`, and set its value as your bot toke
 
 *You can add `--no-daemon` after the `gradlew run` or `gradlew build` if you don't want a [Gradle daemon](https://docs.gradle.org/current/userguide/gradle_daemon.html) running as a background process.*
 
----
 
 ### Heroku
 
@@ -40,3 +39,5 @@ Press the button below to deploy the app to Heroku. Enter necessary details. Onc
       <img src="https://www.herokucdn.com/deploy/button.svg">
   </a>
 </button>
+
+---
