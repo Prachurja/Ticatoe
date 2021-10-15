@@ -13,11 +13,5 @@
     {
       "url": "heroku/gradle"
     }
-  ],
-  "formation": {
-    "worker": {
-      "quantity": 1,
-      "size": "standard-1x"
-    }
-  }
+  ]
 }
