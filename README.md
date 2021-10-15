@@ -17,7 +17,11 @@ Arrow reaction controls such as ⬆, ⬇, etc. are used to move a cursor. A move
 
 ---
 
-## Self-Hosting
+## Hosting
+
+*You must create an application using the Discord Developer Portal and create a bot for the application before using any of the below options.*
+
+### Local
 
 *Note: Must use Java 11 or higher*
 
@@ -27,7 +31,7 @@ Create an environment variable named `TOKEN`, and set its value as your bot toke
 
 ---
 
-## Heroku Hosting
+### Heroku
 <div>
   <button>
     <a href="https://dashboard.heroku.com/new?button-url=https%3A%2F%2Fgithub.com%2FPrachurja%2FTicatoe&template=https%3A%2F%2Fgithub.com%2FPrachurja%2FTicatoe">
