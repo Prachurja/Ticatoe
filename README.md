@@ -33,7 +33,7 @@ Create an environment variable named `TOKEN`, and set its value as your bot toke
 
 ### Heroku
 
-Press the button below to deploy the app to Heroku. Then scale it to one worker dyno. Instructions for scaling: https://devcenter.heroku.com/articles/scaling
+Press the button below to deploy the app to Heroku. Once deployed, click on `Manage App`. Go to the `Resources` tab. Click on the pencil icon beside `worker java -jar app/build/libs/app.jar`. Toggle the switch on, then confirm.
 
 <button>
   <a href="https://dashboard.heroku.com/new?button-url=https%3A%2F%2Fgithub.com%2FPrachurja%2FTicatoe&template=https%3A%2F%2Fgithub.com%2FPrachurja%2FTicatoe">
