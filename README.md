@@ -33,7 +33,7 @@ Create an environment variable named `TOKEN`, and set its value as your bot toke
 
 ### Heroku
 
-If you have a credit card registered to your Heroku account (with or without free tier), simply press the button below. Otherwise, create a new Heroku app. Then, set an environment variable `TOKEN` as the bot token, and scale your app to one worker dyno before deploying.
+Press the button below to deploy the app to Heroku. Then scale it to one worker dyno. Instructions for scaling: https://devcenter.heroku.com/articles/scaling
 
 <button>
   <a href="https://dashboard.heroku.com/new?button-url=https%3A%2F%2Fgithub.com%2FPrachurja%2FTicatoe&template=https%3A%2F%2Fgithub.com%2FPrachurja%2FTicatoe">
