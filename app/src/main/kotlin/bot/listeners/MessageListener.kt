@@ -29,7 +29,7 @@ class MessageListener private constructor(): ListenerAdapter() {
 	}
 
 	override fun onGuildJoin(event: GuildJoinEvent) {
-		val intro: String = BufferedReader(InputStreamReader((MessageListener::class.java).getClassLoader().getResourceAsStream("Intro.txt"))).lines().collect(Collectors.joining("\n"))
+		val intro: String = BufferedReader(InputStreamReader((MessageListener::class.java).getClassLoader().getResourceAsStream("Intro.md"))).lines().collect(Collectors.joining("\n"))
 		
 		event.getGuild().getDefaultChannel()?.sendMessage(EmbedBuilder()
 			.setDescription(intro)
