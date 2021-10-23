@@ -25,9 +25,7 @@ Arrow reaction controls such as ⬆, ⬇, etc. are used to move a cursor. A move
 
 *Note: Must use Java 11 or higher*
 
-Create an environment variable named `TOKEN`, and set its value as your bot token. In the root directory of the project, execute `gradlew run`. If you want to create an executable jar, use `gradlew build` instead. A jar file named `app.jar` gets stored in the `app/build/libs` directory.
-
-*You can add `--no-daemon` after the `gradlew run` or `gradlew build` if you don't want a [Gradle daemon](https://docs.gradle.org/current/userguide/gradle_daemon.html) running as a background process.*
+Create an environment variable named `TOKEN`, and set its value as your bot token. Download the [Ticatoe-1.0.jar](https://github.com/Prachurja/Ticatoe/releases/download/v1.0/Ticatoe-1.0.jar) from the [Release Page](https://github.com/Prachurja/Ticatoe/releases/tag/v1.0) and run it using the command `java -jar path\to\your\jar`.
 
 
 ### Heroku
