@@ -9,7 +9,7 @@ Ticatoe is a Discord bot created using Kotlin, Gradle and JDA (Java Discord API)
 The bot joins a server with an intro from the file `Intro.txt` at `app/src/main/resources`.
 
 The one and only command of this bot is `!tictactoe`, which can be used to play against another person by mentioning them.
-`Example: !tictactoe @TU45I`
+`Example: !tictactoe @Random_User`
 
 Once this command is used, both players must react with 👍 to a verification message to play or 👎 to not play.
 
