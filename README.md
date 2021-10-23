@@ -6,7 +6,7 @@ Ticatoe is a Discord bot created using Kotlin, Gradle and JDA (Java Discord API)
 
 ## Bot Features
 
-The bot joins a server with an intro from the file `Intro.txt` at `app/src/main/resources`.
+The bot joins a server with an intro from the file `Intro.md` at `app/src/main/resources`.
 
 The one and only command of this bot is `!tictactoe`, which can be used to play against another person by mentioning them.
 `Example: !tictactoe @Random_User`
